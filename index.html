@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lana Clothing Shop - Modern Fashion</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="index.html">
+                    <span class="logo-icon">🛍️</span>
+                    <span class="logo-text">Lana</span>
+                </a>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="products.html">Shop</a></li>
+                <li><a href="cart.html">Cart <span id="cart-count" class="cart-badge">0</span></a></li>
+                <li><a href="login.html" id="auth-link">Login</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">✨ New Collection Available</div>
+            <h1>Elevate Your <span class="accent-text">Style</span></h1>
+            <p>Discover curated fashion pieces that blend modern aesthetics with timeless elegance. Shop our exclusive collection of clothing designed for the contemporary lifestyle.</p>
+            <div class="hero-buttons">
+                <a href="products.html" class="btn btn-primary">Shop Now</a>
+                <a href="#features" class="btn btn-secondary">Learn More</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat">
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Unique Items</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">10+</div>
+                    <div class="stat-label">Categories</div>
+                </div>
+                <div class="stat">
+                    <div class="stat-number">100%</div>
+                    <div class="stat-label">Satisfaction</div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <img src="images/shop-photo.jpg" alt="Shop Collection" class="hero-image">
+            <p class="visual-text">Premium Fashion Collection</p>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2>Why Choose Lana?</h2>
+            <p class="section-subtitle">We're committed to providing the best shopping experience with quality products and exceptional service.</p>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">🚚</div>
+                    <h3>Fast Shipping</h3>
+                    <p>Quick and secure delivery to your doorstep</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🎁</div>
+                    <h3>Exclusive Deals</h3>
+                    <p>Seasonal offers and special discounts</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">⭐</div>
+                    <h3>Premium Quality</h3>
+                    <p>Carefully curated fashion pieces</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure Checkout</h3>
+                    <p>Safe and encrypted payment processing</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Section -->
+    <section class="categories">
+        <div class="container">
+            <h2>Shop by Category</h2>
+            <p class="section-subtitle">Explore our diverse collection across all fashion categories</p>
+            <div class="categories-grid">
+                <a href="products.html?category=Tops" class="category-card">
+                    <div class="category-emoji">👕</div>
+                    <h3>Tops & Shirts</h3>
+                    <p>12 items</p>
+                </a>
+                <a href="products.html?category=Bottoms" class="category-card">
+                    <div class="category-emoji">👖</div>
+                    <h3>Bottoms & Jeans</h3>
+                    <p>12 items</p>
+                </a>
+                <a href="products.html?category=Dresses" class="category-card">
+                    <div class="category-emoji">👗</div>
+                    <h3>Dresses & Skirts</h3>
+                    <p>8 items</p>
+                </a>
+                <a href="products.html?category=Outerwear" class="category-card">
+                    <div class="category-emoji">🧥</div>
+                    <h3>Outerwear</h3>
+                    <p>8 items</p>
+                </a>
+                <a href="products.html?category=Activewear" class="category-card">
+                    <div class="category-emoji">🏃</div>
+                    <h3>Activewear</h3>
+                    <p>4 items</p>
+                </a>
+                <a href="products.html?category=Accessories" class="category-card">
+                    <div class="category-emoji">🎩</div>
+                    <h3>Accessories</h3>
+                    <p>6 items</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <h2>Ready to Transform Your Wardrobe?</h2>
+            <p>Join thousands of fashion enthusiasts who've discovered their style with Lana.</p>
+            <a href="products.html" class="btn btn-cta">Start Shopping</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Lana</h3>
+                    <p>Your destination for premium, curated fashion pieces designed for the modern lifestyle.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Shop</a></li>
+                        <li><a href="login.html">Login</a></li>
+                        <li><a href="signup.html">Sign Up</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Contact</h3>
+                    <p>Email: support@lanashop.com</p>
+                    <p>Phone: +1 (888) LANA-SHOP</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Lana Clothing Shop. All rights reserved. Crafted with care.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
